@@ -1,0 +1,24 @@
+[project]
+name = "ComfyUI-BarCensor"
+description = "ComfyUI custom nodes for bar censor (parallel solid-color bars) and mask merging."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+dependencies = ["torch>=1.9.0", "opencv-python>=4.5.0", "numpy>=1.21.0"]
+
+[project.urls]
+Repository = "https://github.com/InfinityTechnology/ComfyUI-BarCensor"
+# Upstream / related project this one was modelled after:
+Upstream = "https://github.com/1038lab/ComfyUI-Mosaic"
+
+# ---------------------------------------------------------------------------
+# ComfyUI Registry (registry.comfy.org) - required to install via ComfyUI Manager.
+#
+# 1. Create a publisher id at https://registry.comfy.org  (one time only)
+# 2. Replace <your-publisher-id> below and uncomment the block
+# 3. Uncomment the Repository line above and replace <your-account>
+# ---------------------------------------------------------------------------
+# [tool.comfy]
+# PublisherId = "<your-publisher-id>"
+# DisplayName = "ComfyUI-BarCensor"
+# Icon = ""
