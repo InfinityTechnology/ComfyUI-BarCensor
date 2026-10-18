@@ -18,5 +18,5 @@ Repository = "https://github.com/InfinityTechnology/ComfyUI-BarCensor"
 Upstream = "https://github.com/1038lab/ComfyUI-Mosaic"
 
 [tool.comfy]
-PublisherId = "infitec440"
+PublisherId = "infitec9440"
 DisplayName = "ComfyUI-BarCensor"
